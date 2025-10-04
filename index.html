@@ -3,44 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>REGISTRO ###</title>
-    <style>
-        body {
-            background-color: black;
-            color: white;
-        }
-        .menu {
-            position: fixed;
-            left: 0;
-            top: 0;
-            width: 200px;
-            height: 100%;
-            background-color: #111;
-            border-right: 1px solid #222;
-            padding-top: 20px;
-        }
-        .menu a {
-            display: block;
-            padding: 10px 15px;
-            text-decoration: none;
-            color: #777;
-            font-size: 14px;
-            transition: 0.2s;
-        }
-
-        .menu a:hover {
-            background-color: #222;
-            color: #f33;
-            letter-spacing: 1px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="icons8-error-50.png">
 </head>
 <body>
-    <div class="menu">
-    <a href="#">/home</a>
-    <a href="alfabeto.html">/alfabeto</a>
-    <a href="documentos.html">/documentos</a>
-    <a href="404.html">/???</a>
+    <div class="container-fluid">
+  <div class="row">
+    <!-- Menu lateral -->
+    <div class="col-12 col-md-3 bg-dark text-white vh-100 p-3">
+      <h5>REGISTRO ###</h5>
+      <ul class="nav flex-column">
+        <li><a href="#" class="nav-link text-white">/home</a></li>
+        <li><a href="alfabeto.html" class="nav-link text-white">Alfabeto</a></li>
+        <li><a href="documentos.html" class="nav-link text-white">Culto</a></li>
+        <li><a href="404.html" class="nav-link text-white">/???</a></li>
+      </ul>
+    </div>
+    <div class="col-12 col-md-9 p-3">
+      <h1>Bem-vindo!</h1>
+      <p>Conteúdo principal aqui.</p>
+    </div>
   </div>
+</div>
 </body>
 </html>
