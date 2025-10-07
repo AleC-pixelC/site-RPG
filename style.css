@@ -13,19 +13,28 @@ body {
             border-right: 1px solid #222;
             padding-top: 20px;
         }
+
+.nav ul {
+    list-style: none; 
+    padding-left: 0;
+}
+.nav li {
+    margin-bottom: 5px; /* espaçamento entre itens */
+}
+
 .nav a.menu {
-            display: block;
-            padding: 10px 15px;
-            text-decoration: none;
-            color: #777;
-            font-size: 14px;
-            transition: 0.2s;
-        }
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    transition: 0.2s;
+}
 .nav a.menu:hover {
-            background-color: #222;
-            color: #f33;
-            letter-spacing: 1px;
-        }
+    background-color: #222;
+    color: #f33;
+    letter-spacing: 1px;
+}
 
 a {
     color: white;
@@ -39,3 +48,7 @@ a:hover {
     user-select: none;
     -webkit-user-select: none;
 }
+button{
+            background-color: black;
+            color: rebeccapurple;
+        }
