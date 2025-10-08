@@ -52,3 +52,15 @@ button{
             background-color: black;
             color: rebeccapurple;
         }
+.alfabeto {
+    margin-left: 200px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.alfabeto div img {
+    width: 200px;
+    height: 100px;
+}
